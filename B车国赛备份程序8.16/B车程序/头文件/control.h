@@ -1,0 +1,16 @@
+void steer_pd(void);
+//int Pixel_Analysis(unsigned char *Pixel);
+float Calculate_line(void);
+int start_check(unsigned char *A,int interval,int yuzhi);
+void search();
+void Prejudge();
+void CrossRoad();
+void  Barraicade(void);
+void  Is_Barraicade(void);
+void  Hill(void);
+void  Is_Hill(void);
+void Find_Bothine();
+uint8_t FindBoundary(uint8_t mode);
+uint8_t FindNearest(uint8_t mode,uint8_t lastegde); 
+void  Normal(void);
+void Push_And_Pull(float *buff,int len,float newdata);
